@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mkyong</groupId>
+    <artifactId>mkyong_parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>MKyong Sandbox</name>
+
+    <modules>
+        <module>spring</module>
+        <module>struts_1</module>
+        <module>hibernate-one-to-one</module>
+        <module>log4j</module>
+        <module>examples</module>
+        <module>junit4</module>
+        <module>junit5</module>
+    </modules>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <jettyPluginVersion>9.0.2.v20130417</jettyPluginVersion>
+        <jettyDependencyVersion>3.0.0.v201112011016</jettyDependencyVersion>
+
+        <spring.version>5.0.0.RELEASE</spring.version>
+
+        <junit.version>5.5.1</junit.version>
+        <mockito.version>3.0.0</mockito.version>
+    </properties>
+
+</project>
